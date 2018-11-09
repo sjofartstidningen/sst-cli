@@ -1,2 +1,2 @@
 require = require('esm')(module);
-module.exports = require('./lib/cli.js').default;
+module.exports = require('./lib/index.js').default;
