@@ -13,6 +13,9 @@
     "lib",
     "index.js"
   ],
+  "scripts": {
+    "test": "jest --env=node --watch"
+  },
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
@@ -22,5 +25,8 @@
     "isomorphic-fetch": "^2.2.1",
     "listr": "^0.14.2",
     "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
