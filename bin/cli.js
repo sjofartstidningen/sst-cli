@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
 require('isomorphic-fetch');
-require = require('esm')(module);
-const program = require('../lib/index.js').default;
-
+const program = require('../lib/index.js');
 program.parse(process.argv);
